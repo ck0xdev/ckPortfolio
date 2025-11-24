@@ -1,51 +1,39 @@
 import React from 'react';
-import { FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
+import { motion } from 'framer-motion';
+import { FaEnvelope, FaPaperPlane } from 'react-icons/fa';
 
 const Contact = () => {
   return (
     <section id="contact" className="contact-section">
-      <h2 className="section-title">Get In Touch</h2>
-      <div className="contact-container">
-        
-        {/* LEFT SIDE: Contact Info */}
-        <div className="contact-info">
-          <h3>Let's Talk</h3>
-          <p>I'm currently open to internship opportunities.</p>
-          
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px' }}>
-            <FaEnvelope style={{ color: '#8b5cf6' }}/>
-            <span>kuk************026@gmail.com</span>
+      
+      <motion.div 
+        className="contact-card-centered"
+        initial={{ opacity: 0, scale: 0.95 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
+      >
+        <h2>Ready to hire?</h2>
+        <p>
+          I am currently actively looking for <strong>Internship opportunities</strong> as a Front-End Developer. 
+          If you have an open role or just want to discuss a project, my inbox is always open.
+        </p>
+
+        {/* The Big Email Button */}
+        <a href="mailto:kukadiyachintan026@gmail.com" className="email-cta">
+          <div className="icon-box">
+            <FaEnvelope />
           </div>
-          
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-            <FaPhoneAlt style={{ color: '#8b5cf6' }}/>
-            <span>+91 82380 *****</span>
+          <div className="email-text">
+            <span>Drop me an email at</span>
+            <strong>kukadiyachintan026@gmail.com</strong>
           </div>
-        </div>
+          <div className="arrow-box">
+             <FaPaperPlane />
+          </div>
+        </a>
 
-        {/* RIGHT SIDE: Functional Form */}
-        <form 
-          /* This link sends the data to your email via FormSubmit */
-          action="https://formsubmit.co/kuakdiyachintan026@gmail.com" 
-          method="POST" 
-          className="contact-form"
-        >
-          {/* Hidden Settings for FormSubmit */}
-          <input type="text" name="_honey" style={{ display: 'none' }} /> {/* Spam protection */}
-          <input type="hidden" name="_captcha" value="false" /> {/* Disable captcha for cleaner look */}
-          
-          {/* IMPORTANT: Update this value to your Vercel link once deployed */}
-          <input type="hidden" name="_next" value="https://ckportfolio.vercel.app/" />
-
-          {/* Input Fields with 'name' attributes added */}
-          <input type="text" name="name" placeholder="Your Name" required />
-          <input type="email" name="email" placeholder="Your Email" required />
-          <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
-          
-          <button type="submit" className="btn-submit">Send Message</button>
-        </form>
-
-      </div>
+      </motion.div>
     </section>
   );
 };
