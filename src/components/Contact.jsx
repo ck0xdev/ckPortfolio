@@ -11,7 +11,7 @@ const Contact = () => {
           <p>I'm currently open to internship opportunities.</p>
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px' }}>
             <FaEnvelope style={{ color: '#8b5cf6' }}/>
-            <span>kuakdiyachintan026@gmail.com</span>
+            <span>kuk************026@gmail.com</span>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
             <FaPhoneAlt style={{ color: '#8b5cf6' }}/>

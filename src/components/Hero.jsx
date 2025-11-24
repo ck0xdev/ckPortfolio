@@ -34,7 +34,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 1 }}
         >
-            Chintan Kukadiya
+            CK
         </motion.h1>
 
         <p>

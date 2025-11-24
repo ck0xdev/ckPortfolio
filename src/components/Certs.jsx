@@ -24,9 +24,7 @@ const Certs = () => {
               Completed practical tasks in Cyber Security, including analysing potential threats and understanding secure coding practices.
             </p>
           </div>
-          <a href="Deloitte - Cyber Certificate.pdf" target="_blank" rel="noopener noreferrer" className="btn-verify">
-            Verify Credential <FaExternalLinkAlt style={{ marginLeft: '8px', fontSize: '0.8rem' }}/>
-          </a>
+          
         </motion.div>
       </div>
     </section>
