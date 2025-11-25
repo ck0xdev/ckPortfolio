@@ -43,9 +43,10 @@ const Hero = () => {
         </p>
 
         <div className="hero-btns">
-          <a href="public/chintanKukadiya.pdf" download className="btn btn-primary">
-            Resume
-          </a>
+        
+        <a href="chintanKukadiya.pdf" download="ChintanKukadiya_Resume.pdf" className="btn btn-primary">
+          Download Resume
+        </a>
           <a href="#contact" className="btn btn-outline">Contact Me</a>
         </div>
       </motion.div>
