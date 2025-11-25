@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://ckportfolio-eight.vercel.app/
