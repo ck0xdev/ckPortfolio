@@ -7,14 +7,14 @@ const Projects = () => {
       title: "Personal Portfolio",
       description: "A high-performance, interactive portfolio website built with React and Framer Motion. Features glassmorphism design, smooth animations, and responsive layout.",
       tech: ["React", "Framer Motion", "CSS3"],
-      link: "#"
+      link: "https://github.com/ck0xdev/ckPortfolio"
     },
-    {
-      title: "E-Commerce Website",
-      description: "A fully functional online store allowing users to browse products, manage shopping carts, and place orders. Includes an admin dashboard for managing inventory and user data.",
-      tech: ["PHP", "MongoDB", "HTML/CSS"],
-      link: "https://github.com/ZackDevd/ECommerce-Website-Using-PHP"
-    }
+    // {
+    //   title: "E-Commerce Website",
+    //   description: "A fully functional online store allowing users to browse products, manage shopping carts, and place orders. Includes an admin dashboard for managing inventory and user data.",
+    //   tech: ["PHP", "MongoDB", "HTML/CSS"],
+    //   link: "https://github.com/ZackDevd/ECommerce-Website-Using-PHP"
+    // }
   ];
 
   return (
