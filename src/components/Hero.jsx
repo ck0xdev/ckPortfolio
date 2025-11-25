@@ -34,16 +34,18 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 1 }}
         >
-            CK
+            Chintan Kukadiya
         </motion.h1>
 
         <p>
-          I am a <strong></strong> <strong>BCA Student</strong> at VNSG University. 
+          I am a <strong>BCA Student</strong> at VNSG University. 
           Passionate about UI/UX design and building responsive, secure web applications.
         </p>
 
         <div className="hero-btns">
-          <a href="#projects" className="btn btn-primary">View My Work</a>
+          <a href="public/chintanKukadiya.pdf" download className="btn btn-primary">
+            Resume
+          </a>
           <a href="#contact" className="btn btn-outline">Contact Me</a>
         </div>
       </motion.div>

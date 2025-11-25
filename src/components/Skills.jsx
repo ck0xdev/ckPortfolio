@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaHtml5, FaCss3Alt, FaJs, FaPython, FaPhp, FaDatabase } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJs, FaPython, FaPhp, FaDatabase, FaReact } from 'react-icons/fa';
 import { SiAdobephotoshop } from 'react-icons/si';
 
 const Skills = () => {
@@ -9,7 +9,7 @@ const Skills = () => {
     { name: "CSS", icon: <FaCss3Alt />, color: "#264de4" },
     { name: "JavaScript", icon: <FaJs />, color: "#f0db4f" },
     { name: "Python", icon: <FaPython />, color: "#4B8BBE" },
-    { name: "PHP", icon: <FaPhp />, color: "#787CB5" },
+    { name: "React", icon: <FaReact />, color: "#787CB5" },
     { name: "MongoDB", icon: <FaDatabase />, color: "#4DB33D" },
     { name: "Photoshop", icon: <SiAdobephotoshop />, color: "#31A8FF" },
   ];
